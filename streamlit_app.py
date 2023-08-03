@@ -12,6 +12,8 @@ streamlit.text('🐔 Hard-Boiled Free-Range Egg')
 streamlit.text('🥑🍞 Avocado Toast')
 
 
+################################# Link to streamlit: https://firstappapp-nxqp6cqjnwzfxzkvvebbxm.streamlit.app/ ################################
+
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
@@ -68,3 +70,7 @@ if streamlit.button('Add a Fruit to the List'):
   back_from_function = insert_row_snowflake(add_my_fruit)
   my_cnx.close()
   streamlit.text(back_from_function)
+
+
+
+################################# Link to streamlit: https://firstappapp-nxqp6cqjnwzfxzkvvebbxm.streamlit.app/ ################################
